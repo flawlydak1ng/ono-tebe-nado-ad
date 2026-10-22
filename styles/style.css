@@ -1,6 +1,6 @@
 body {
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.35;
 }
 
 /* Шапка */
@@ -49,8 +49,6 @@ body {
   align-items: flex-start;
   max-width: 215px;
   font-style: normal;
-  font-size: 18px;
-  line-height: 24px;
 }
 
 /* Оверлей */
@@ -72,16 +70,11 @@ body {
   color: #fff;
 }
 
-.cover__title,
-.cover__description {
+.cover__title {
   position: relative;
   z-index: 1;
-}
-
-.cover__title {
-  margin: 0;
   font-size: 96px;
-  line-height: 136px;
+  line-height: 1.4;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -111,6 +104,8 @@ body {
 }
 
 .cover__description {
+  position: relative;
+  z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -129,7 +124,7 @@ body {
   background: transparent;
   color: inherit;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -143,7 +138,7 @@ body {
   margin-bottom: 30px;
   margin-left: 40px;
   font-size: 40px;
-  line-height: 48px;
+  line-height: 1.2;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -195,23 +190,21 @@ body {
   background-image: url(../images/card-lot-03.jpg);
 }
 
-.card__title,
-.card__text {
+.card__title {
   position: relative;
   z-index: 1;
-}
-
-.card__title {
   font-size: 22px;
-  line-height: 26px;
+  line-height: 1.2;
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: underline;
 }
 
 .card__text {
+  position: relative;
+  z-index: 1;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
 }
 
 .lots__look-more-link {
@@ -246,14 +239,15 @@ body {
 .about__title {
   margin: 100px 0 96px;
   font-size: 40px;
-  line-height: 48px;
+  line-height: 1.2;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 .about__text {
-  font-size: 20px;
   display: flex;
+  font-size: 20px;
+  line-height: 1.2;
   flex-direction: column;
   gap: 24px;
 }
@@ -277,7 +271,7 @@ body {
 .footer__menu-list {
   list-style: none;
   text-align: center;
-  line-height: 21px;
+  line-height: 1.2;
 }
 
 .footer__menu-link {
